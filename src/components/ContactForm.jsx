@@ -44,7 +44,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-6 rounded-md shadow-md">
+    <form onSubmit={handleSubmit} className="  duration-1000   hover:scale-110  
+     ">
       <h2 className="text-2xl text-white mb-4">Contact Me</h2>
       <div className="flex flex-col mb-4">
         <label className="text-white mb-2">Name</label>
@@ -75,7 +76,11 @@ const ContactForm = () => {
           required
         />
       </div>
-      <button type="submit" className="bg-[#27a42d] text-white p-2 rounded-md">
+      <button
+        type="submit"
+        className="rounded-lg transition-all duration-1000 hover:grayscale-0 hover:scale-110 cursor-pointer 
+        hover:border-4 hover:border-transparent hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-2 text-white bg-[#27a42d]"
+      >
         Send Message
       </button>
     </form>

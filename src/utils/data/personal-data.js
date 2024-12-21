@@ -1,8 +1,8 @@
 export const personalData = {
   name: "TAMMINANA BHOGESH",
-  profile: '/favicon.ico',
+  profile: './profile.webp',
   designation: "Fullstack Developer",
-  description: "Passionate Frontend Developer committed to continuous learning and staying up-to-date with the latest technologies and best practices. Experienced building dynamic, responsive web applications with modern frameworks like React, Next.js, and TypeScript. My focus is to deliver high-quality, pixel-perfect solutions.",
+  description: "Driven Frontend Developer with a passion for crafting dynamic, responsive web applications that merge cutting-edge technologies with pixel-perfect precision. With expertise in React, Next.js, and TypeScript, I stay ahead of trends, ensuring every project is not only visually stunning but also robust and user-focused. Ready to bring innovative solutions and deliver exceptional results that elevate your vision.",
   email: 'tamminanabhogesh@gmail.com',
   phone: '9704635156',
   address: 'Hyderabadh ',
