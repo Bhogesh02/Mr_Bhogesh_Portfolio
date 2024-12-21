@@ -32,6 +32,7 @@ const Hero = () => {
             <a
               href={personalData.github}
               target='_blank'
+              rel="noreferrer"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
@@ -39,6 +40,7 @@ const Hero = () => {
             <a
               href={personalData.linkedIn}
               target='_blank'
+              rel="noreferrer"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
@@ -46,6 +48,7 @@ const Hero = () => {
             <a
               href={personalData.facebook}
               target='_blank'
+              rel="noreferrer"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
@@ -53,6 +56,7 @@ const Hero = () => {
             <a
               href={personalData.leetcode}
               target='_blank'
+              rel="noreferrer"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
@@ -60,6 +64,7 @@ const Hero = () => {
             <a
               href={personalData.twitter}
               target='_blank'
+              rel="noreferrer"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
@@ -74,7 +79,7 @@ const Hero = () => {
               </button>
             </a>
 
-            <a className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
+            <a className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" rel="noreferrer" href={personalData.resume}
             >
               <span>Get Resume</span>
               <MdDownload size={16} />
