@@ -31,7 +31,7 @@ const ContactForm = () => {
         "xGud0aZOcUS2MkS0D" // Replace with your actual Public Key
       );
 
-      toast.success("Your message has been sent successfully!");
+      toast.success("Message sent! We appreciate your inquiry and will get back to you as soon as possible.");
     } catch (error) {
       console.error("EmailJS Error:", error);
       toast.error("Failed to send message. Please try again.");

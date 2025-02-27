@@ -1,7 +1,7 @@
 // @flow strict
 
 import { personalData } from "../utils/data/personal-data";
-import profileImage from "../Images/profile 2.webp";
+import profileImage from "../Images/Profile3.jpg";
 
 function AboutSection() {
   return (
@@ -24,8 +24,8 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-2">
         <img
   src={profileImage}
-  width={280}
-  height={280}
+  width={220}
+  height={200}
   alt="bhogesh"
   className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer 
   hover:border-4 hover:border-transparent hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-1"

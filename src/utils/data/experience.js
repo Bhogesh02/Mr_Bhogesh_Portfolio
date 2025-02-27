@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: 'Fullstack Developer',
     company: "Newowl AI",
-    duration: "(October 2024 - Present)"
+    duration: "(July 2024 - Present)"
   },
   {
     id: 2,

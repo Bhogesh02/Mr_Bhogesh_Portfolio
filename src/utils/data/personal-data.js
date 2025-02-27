@@ -1,10 +1,10 @@
 export const personalData = {
   name: "TAMMINANA BHOGESH",
   profile: './profile.webp',
-  designation: "Fullstack Developer",
-  description: "Driven Frontend Developer with a passion for crafting dynamic, responsive web applications that merge cutting-edge technologies with pixel-perfect precision. With expertise in React, Next.js, and TypeScript, I stay ahead of trends, ensuring every project is not only visually stunning but also robust and user-focused. Ready to bring innovative solutions and deliver exceptional results that elevate your vision.",
+  designation: "MERN Stack Developer",
+  description: "Results-Driven MERN Stack Developer with a passion for building scalable, high-performance web applications that seamlessly integrate modern technologies. Proficient in MongoDB, Express.js, React, and Node.js, I specialize in crafting efficient, user-centric solutions with clean architecture and maintainable code. With expertise in Next.js, TypeScript, and advanced state management, I stay ahead of industry trends to deliver robust, secure, and visually compelling applications. Committed to innovation and excellence, I transform complex requirements into seamless digital experiences that drive business success.",
   email: 'tamminanabhogesh@gmail.com',
-  phone: '9704635156',
+  phone: '+91 9704635156',
   address: 'Hyderabadh ',
   github: 'https://github.com/Bhogesh02',
   facebook: 'https://www.facebook.com/Tamminana.Prudhive',
@@ -13,5 +13,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/',
   leetcode: "https://leetcode.com/",
   devUsername: "Bhogesh02",
-  resume: "https://drive.google.com/file/d/1KCsFYZ86X-zBI47MVo9PIGMJVfU6HP6j/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1owGcIWAZBKcpMZKaPcsZz8era9gnAqv4/view?usp=sharing"
 }
